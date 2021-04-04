@@ -1,1 +1,1 @@
-Sitemap: https://luismcv.github.io/blog/sitemap.xml
+Sitemap: https://luismcv.github.io/sitemap.xml
