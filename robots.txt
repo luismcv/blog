@@ -1,1 +1,1 @@
-Sitemap: https://luismcv.github.io/sitemap.xml
+Sitemap: https://blog.hackworld.org/sitemap.xml
