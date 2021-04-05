@@ -3,6 +3,15 @@
 
   <div class="wrapper">
 
+    <section>
+    {% if page.previous %}
+      <a style="float:left; text-decoration: none;" href="{{ page.previous.url }}">← {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next %}
+      <a style="float:right; text-decoration: none;" href="{{ page.next.url }}">{{page.next.title}} →</a>
+    {% endif %}
+    </section>
+
     <div class="footer-col-wrapper">
       <div class="footer-col">
 	<!--
