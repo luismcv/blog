@@ -477,4 +477,6 @@ li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
 
 .social-media-list .svg-icon, .pagination .svg-icon { width: 250x !important; height: 230x !important; }
 
+.search-result-highlight { color: yellow; font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
