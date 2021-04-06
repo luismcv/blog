@@ -110,15 +110,7 @@ window.onload = wrap_img;
 </div>
 
   </div>
-  <style>
-    #cookie-notice {padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
-    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
-    @media (max-width: 767px) {
-        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
-        #cookie-notice a {position: relative; bottom: 4px;}
-    }
-</style>
-<div id="cookie-notice">
+  <div id="cookie-notice">
 	<span>Te agradecería que me dieras permiso para usar las cookies y scripts de Google Analytics.</span>
 	<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Autorizar</a>
 	<a href="/privacy" class="btn btn-primary btn-sm">Más información</a>
@@ -129,7 +121,7 @@ window.onload = wrap_img;
         var expires = "";
         if (days) {
             var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
+            date.setTime(date.getTime() + (days*24*60*60*1000*3));
             expires = "; expires=" + date.toUTCString();
         }
         document.cookie = name + "=" + value + expires + "; path=/";
